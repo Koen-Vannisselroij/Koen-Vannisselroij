@@ -6,9 +6,3 @@ AI Engineer with expertise in Natural Language Processing, Large Language Models
 - [LinkedIn Profile](https://linkedin.com/in/koenvannisselroij)
 - [Online CV](https://koen-vannisselroij.github.io/Koen-Vannisselroij/)
 - [Publication: Storytelling AI: A Generative Approach to Story Narration](https://ceur-ws.org/Vol-2794/paper4.pdf)
-
-## About
-This repository hosts my professional CV
-
-## Local Development
-To view the CV locally, simply open the `index.html` file in your web browser.
