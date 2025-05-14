@@ -8,15 +8,7 @@ AI Engineer with expertise in Natural Language Processing, Large Language Models
 - [Publication: Storytelling AI: A Generative Approach to Story Narration](https://ceur-ws.org/Vol-2794/paper4.pdf)
 
 ## About
-This repository hosts my professional CV, built with HTML and Tailwind CSS. The CV is hosted using GitHub Pages.
-
-## View Online
-Visit [koenvannisselroij.github.io/cv](https://koenvannisselroij.github.io/cv) to view the CV online.
+This repository hosts my professional CV
 
 ## Local Development
 To view the CV locally, simply open the `index.html` file in your web browser.
-
-## Technologies Used
-- HTML5
-- Tailwind CSS
-- Google Fonts (Inter) 
