@@ -8,7 +8,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Koen-Vannisselroij&show_icons=true&hide_rank=false&include_all_commits=true&count_private=false&hide_title=false" />
+  <img src="https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/last-30d-stats.svg" />
+  <!-- above card is generated daily by GitHub Actions from the last 30 days -->
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Koen-Vannisselroij" />

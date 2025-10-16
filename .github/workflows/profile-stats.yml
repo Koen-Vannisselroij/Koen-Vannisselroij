@@ -67,12 +67,50 @@ jobs:
               JSON.stringify(mkBadge('30d commit avg', `${commitAvg}/day`, 'blue')));
             fs.writeFileSync('badges/contrib-avg-30d.json',
               JSON.stringify(mkBadge('30d contributions avg', `${contribAvg}/day`, 'blue')));
-            console.log({ commitAvg, contribAvg });
+            // Also render a simple SVG "card" for last-30d stats
+            const commits = cc.totalCommitContributions;
+            const prs = cc.totalPullRequestContributions;
+            const issues = cc.totalIssueContributions;
+            const reviews = cc.totalPullRequestReviewContributions;
 
-      - name: Commit and push badge JSON
+            const width = 640, height = 160, padX = 24;
+            const colWidth = 140; // 4 columns
+            const labels = [
+              { label: 'Commits', value: String(commits) },
+              { label: 'PRs', value: String(prs) },
+              { label: 'Issues', value: String(issues) },
+              { label: 'Reviews', value: String(reviews) },
+            ];
+
+            const col = (i) => padX + i * colWidth;
+            const rows = labels.map((d, i) => `
+              <g transform="translate(${col(i)}, 56)">
+                <text class="label" x="0" y="14">${d.label}</text>
+                <text class="value" x="0" y="44">${d.value}</text>
+              </g>
+            `).join('\n');
+
+            const svg = `<?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
+              <style>
+                .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #24292f; }
+                .label { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #57606a; }
+                .value { font: 700 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #0969da; }
+                .muted { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #57606a; }
+              </style>
+              <rect width="100%" height="100%" rx="10" fill="#fff" stroke="#e1e4e8"/>
+              <text class="title" x="${padX}" y="32">GitHub Stats — Last 30 days</text>
+              ${rows}
+              <text class="muted" x="${padX}" y="128">Contribs/day: ${contribAvg} • Commits/day: ${commitAvg}</text>
+            </svg>`;
+
+            fs.writeFileSync('badges/last-30d-stats.svg', svg);
+            console.log({ commitAvg, contribAvg, commits, prs, issues, reviews });
+
+      - name: Commit and push badge assets
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add badges/*.json
+          git add badges/*.json badges/*.svg
           git commit -m "chore: update profile badges" || echo "no changes to commit"
           git push
