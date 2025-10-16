@@ -5,8 +5,6 @@
   <!-- rolling stats (you'll enable these in step 2) -->
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/commit-avg-30d.json&style=for-the-badge" />
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/contrib-avg-30d.json&style=for-the-badge" />
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/total-stars.json&style=for-the-badge" />
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/public-repos.json&style=for-the-badge" />
 </p>
 
 <p align="center">
