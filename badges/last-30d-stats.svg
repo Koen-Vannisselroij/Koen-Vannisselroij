@@ -8,21 +8,29 @@
   </style>
   <rect width="100%" height="100%" rx="10" fill="#fff" stroke="#e1e4e8"/>
   <text class="title" x="24" y="32">GitHub Stats — Last 30 days</text>
-  <g transform="translate(24,56)">
+  
+  <g transform="translate(24, 56)">
     <text class="label" x="0" y="14">Commits</text>
-    <text class="value" x="0" y="44">—</text>
+    <text class="value" x="0" y="44">142</text>
   </g>
-  <g transform="translate(164,56)">
+
+
+  <g transform="translate(164, 56)">
     <text class="label" x="0" y="14">PRs</text>
-    <text class="value" x="0" y="44">—</text>
+    <text class="value" x="0" y="44">9</text>
   </g>
-  <g transform="translate(304,56)">
+
+
+  <g transform="translate(304, 56)">
     <text class="label" x="0" y="14">Issues</text>
-    <text class="value" x="0" y="44">—</text>
+    <text class="value" x="0" y="44">0</text>
   </g>
-  <g transform="translate(444,56)">
+
+
+  <g transform="translate(444, 56)">
     <text class="label" x="0" y="14">Reviews</text>
-    <text class="value" x="0" y="44">—</text>
+    <text class="value" x="0" y="44">0</text>
   </g>
-  <text class="muted" x="24" y="128">Contribs/day: pending • Commits/day: pending</text>
+
+  <text class="muted" x="24" y="128">Contribs/day: 5.03 • Commits/day: 4.73</text>
 </svg>
