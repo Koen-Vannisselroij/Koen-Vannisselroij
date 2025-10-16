@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/last-30d-stats.svg" />
+  <img src="https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/last-30d-stats.svg?v=2" />
   <!-- above card is generated daily by GitHub Actions from the last 30 days -->
 </p>
 <p align="center">
