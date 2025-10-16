@@ -109,6 +109,51 @@ jobs:
             fs.writeFileSync('badges/last-30d-stats.svg', svg);
             console.log({ commitAvg, contribAvg, commits, prs, issues, reviews });
 
+            // Overwrite with a more polished design
+            {
+              const width = 740, height = 190, padX = 28, padY = 22;
+              const colWidth = 170; // 4 columns layout
+              const updated = new Date().toISOString().slice(0, 10);
+              const stats = [
+                { label: 'Commits', value: commits },
+                { label: 'PRs', value: prs },
+                { label: 'Issues', value: issues },
+                { label: 'Reviews', value: reviews },
+              ];
+              const cols = stats.map((d, i) => `
+                <g transform="translate(${padX + i * colWidth}, ${padY + 52})">
+                  <rect x="-8" y="-4" width="140" height="60" rx="8" fill="#f6f8fa" stroke="#d0d7de" />
+                  <text class="label" x="0" y="14">${d.label}</text>
+                  <text class="value" x="0" y="44">${d.value}</text>
+                </g>
+              `).join('\n');
+              const svg2 = `<?xml version="1.0" encoding="UTF-8"?>
+              <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
+                <defs>
+                  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#1f6feb"/>
+                    <stop offset="100%" stop-color="#58a6ff"/>
+                  </linearGradient>
+                  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+                    <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.08"/>
+                  </filter>
+                </defs>
+                <style>
+                  .title { font: 700 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #0d1117; }
+                  .subtitle { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #57606a; }
+                  .label { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #57606a; }
+                  .value { font: 800 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #0969da; }
+                  .meta { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #57606a; }
+                </style>
+                <rect width="100%" height="100%" rx="14" fill="#fff" stroke="#d0d7de" filter="url(#shadow)"/>
+                <rect x="${padX}" y="${padY - 8}" width="260" height="8" rx="4" fill="url(#acc)"/>
+                <text class="title" x="${padX}" y="${padY + 24}">GitHub Stats — Last 30 days</text>
+                ${cols}
+                <text class="meta" x="${padX}" y="${height - 24}">Contribs/day: ${contribAvg} • Commits/day: ${commitAvg} • Updated: ${updated}</text>
+              </svg>`;
+              fs.writeFileSync('badges/last-30d-stats.svg', svg2);
+            }
+
       - name: Commit and push badge assets
         run: |
           git config user.name  "github-actions[bot]"
