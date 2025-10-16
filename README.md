@@ -25,7 +25,6 @@
   <img src="https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/LangChain-000000?logo=chainlink&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Prefect-212121?logo=prefect&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge" />
