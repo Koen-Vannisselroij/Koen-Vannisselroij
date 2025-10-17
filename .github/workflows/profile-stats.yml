@@ -76,12 +76,10 @@ jobs:
             const reviews = cc.totalPullRequestReviewContributions;
 
             const width = 640, height = 160, padX = 24;
-            const colWidth = 140; // 4 columns
+            const colWidth = 280; // 2 columns (centered spacing)
             const labels = [
               { label: 'Commits', value: String(commits) },
               { label: 'PRs', value: String(prs) },
-              { label: 'Issues', value: String(issues) },
-              { label: 'Reviews', value: String(reviews) },
             ];
 
             const col = (i) => padX + i * colWidth;
@@ -112,13 +110,11 @@ jobs:
             // Overwrite with a more polished design
             {
               const width = 740, height = 190, padX = 28, padY = 22;
-              const colWidth = 170; // 4 columns layout
+              const colWidth = 320; // 2 columns layout
               const updated = new Date().toISOString().slice(0, 10);
               const stats = [
                 { label: 'Commits', value: commits },
                 { label: 'PRs', value: prs },
-                { label: 'Issues', value: issues },
-                { label: 'Reviews', value: reviews },
               ];
               const cols = stats.map((d, i) => `
                 <g transform="translate(${padX + i * colWidth}, ${padY + 52})">

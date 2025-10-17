@@ -1,7 +1,7 @@
 <!-- top badges removed for a cleaner look -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/last-30d-stats.svg?v=2" />
+  <img src="https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/last-30d-stats.svg?v=3" />
   <!-- above card is generated daily by GitHub Actions from the last 30 days -->
 </p>
 <p align="center">
