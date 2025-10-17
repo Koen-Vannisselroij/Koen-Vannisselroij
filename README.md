@@ -1,9 +1,5 @@
-<!-- flashy header -->
+<!-- minimal header: 30d contributions average -->
 <p align="center">
-  <img src="https://img.shields.io/github/followers/Koen-Vannisselroij?label=Followers&style=for-the-badge" />
-  <img src="https://img.shields.io/github/last-commit/Koen-Vannisselroij/Koen-Vannisselroij?label=Last%20profile%20update&style=for-the-badge" />
-  <!-- rolling stats (you'll enable these in step 2) -->
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/commit-avg-30d.json&style=for-the-badge" />
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/contrib-avg-30d.json&style=for-the-badge" />
 </p>
 
