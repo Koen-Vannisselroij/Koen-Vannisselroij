@@ -1,9 +1,11 @@
-# Koen Vannisselroij
+<p align="center">
+  <img src="assets/text_koen_vannisselroij.png" alt="Koen Vannisselroij" width="700" />
+</p>
 
 AI Engineer with expertise in Natural Language Processing, Large Language Models, and Machine Learning.
 
 ## Links
-- [LinkedIn Profile](https://linkedin.com/in/koenvannisselroij)
+- [LinkedIn](https://linkedin.com/in/koenvannisselroij)
 - [Online CV](https://koen-vannisselroij.github.io/Koen-Vannisselroij/)
 
 
@@ -38,4 +40,3 @@ AI Engineer with expertise in Natural Language Processing, Large Language Models
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white&style=for-the-badge" />
 </p>
-
