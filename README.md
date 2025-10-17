@@ -1,7 +1,4 @@
-<!-- minimal header: 30d contributions average -->
-<p align="center">
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/contrib-avg-30d.json&style=for-the-badge" />
-</p>
+<!-- top badges removed for a cleaner look -->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/last-30d-stats.svg?v=2" />
