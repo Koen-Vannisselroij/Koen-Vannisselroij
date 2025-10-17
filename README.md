@@ -1,16 +1,20 @@
-<!-- top badges removed for a cleaner look -->
+# Koen Vannisselroij
+
+AI Engineer with expertise in Natural Language Processing, Large Language Models, and Machine Learning.
+
+## Links
+- [LinkedIn Profile](https://linkedin.com/in/koenvannisselroij)
+- [Online CV](https://koen-vannisselroij.github.io/Koen-Vannisselroij/)
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Koen-Vannisselroij/Koen-Vannisselroij/main/badges/last-30d-stats.svg?v=3" />
-  <!-- above card is generated daily by GitHub Actions from the last 30 days -->
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Koen-Vannisselroij&theme=dark&hide_border=true" />
 </p>
 
-<!-- tech stack (flashy) -->
 <p align="center">
-  <!-- Core ML -->
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white&style=for-the-badge" />
@@ -20,7 +24,6 @@
 </p>
 
 <p align="center">
-  <!-- Backend & MLOps -->
   <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white&style=for-the-badge" />
@@ -32,15 +35,7 @@
 </p>
 
 <p align="center">
-  <!-- Frontend & misc -->
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" />
   <img src="https://img.shields.io/badge/Swift-FA7343?logo=swift&logoColor=white&style=for-the-badge" />
 </p>
 
-# Koen Vannisselroij
-
-AI Engineer with expertise in Natural Language Processing, Large Language Models, and Machine Learning.
-
-## Links
-- [LinkedIn Profile](https://linkedin.com/in/koenvannisselroij)
-- [Online CV](https://koen-vannisselroij.github.io/Koen-Vannisselroij/)
