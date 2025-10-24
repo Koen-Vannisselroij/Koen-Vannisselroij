@@ -4,9 +4,15 @@
 
 AI Engineer with expertise in Natural Language Processing, Large Language Models, and Machine Learning.
 
-## Links
-- [LinkedIn](https://linkedin.com/in/koenvannisselroij)
-- [Online CV](https://koen-vannisselroij.github.io/Koen-Vannisselroij/)
+<p align="center">
+  <a href="https://linkedin.com/in/koenvannisselroij">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://koen-vannisselroij.github.io/Koen-Vannisselroij/">
+    <img alt="Online CV" src="https://img.shields.io/badge/Online%20CV-374151?style=for-the-badge" />
+  </a>
+</p>
 
 
 <p align="center">
