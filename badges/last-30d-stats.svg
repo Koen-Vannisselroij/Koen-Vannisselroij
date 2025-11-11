@@ -23,15 +23,15 @@
     <g transform="translate(28, 74)">
       <rect x="-8" y="-4" width="140" height="60" rx="8" fill="#161b22" stroke="#30363d" />
       <text class="label" x="0" y="14">Commits</text>
-      <text class="value" x="0" y="44">55</text>
+      <text class="value" x="0" y="44">34</text>
     </g>
   
 
     <g transform="translate(348, 74)">
       <rect x="-8" y="-4" width="140" height="60" rx="8" fill="#161b22" stroke="#30363d" />
       <text class="label" x="0" y="14">PRs</text>
-      <text class="value" x="0" y="44">8</text>
+      <text class="value" x="0" y="44">4</text>
     </g>
   
-    <text class="meta" x="28" y="166">Contribs/day: 2.10 • Commits/day: 1.83 • Updated: 2025-11-10</text>
+    <text class="meta" x="28" y="166">Contribs/day: 1.27 • Commits/day: 1.13 • Updated: 2025-11-11</text>
   </svg>
