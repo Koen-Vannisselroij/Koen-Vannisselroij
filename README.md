@@ -2,7 +2,7 @@
   <img src="assets/text_koen_vannisselroij.png" alt="Koen Vannisselroij" width="700" />
 </p>
 
-AI Engineer with expertise in Natural Language Processing, Large Language Models, and Machine Learning.
+AI Engineer working on customer service AI at Zendesk, with a background in NLP, LLM applications, and machine learning.
 
 <p align="center">
   <a href="https://linkedin.com/in/koenvannisselroij">
